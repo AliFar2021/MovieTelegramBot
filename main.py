@@ -40,7 +40,7 @@ def index():
             send_mess(chat_id, 'if you want see your list write ( 3 )')
             send_mess(chat_id, 'if you want see your favorite list write ( 4 )')
             send_mess(chat_id, 'if you want get information about movies write ( 5 )')
-
+            break
         if 1 in text:
             movies = read_json_file()
             user = messs['message']['from']['username']
